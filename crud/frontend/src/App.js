@@ -1,18 +1,21 @@
-import './App.css'
-import React from 'react'
+import logo from './logo.svg';
+import './App.css';
+import Logo from './components/Logo';
+import Nav from './components/Nav';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
-import Logo from './components/template/Logo'
-import Main from './components/template/Main'
-import Nav from './components/template/Nav'
-import Footer from './components/template/Footer'
-
-
-
-export default props =>{
-    <div className='app'>
-        <Logo/>
-      <Nav/>
-        <Main/>
+function App() {
+  return (
+    <div className="app">
+         <Logo/>
+         <Nav/>
+      <Header/>
+      <Main/>
       <Footer/>
     </div>
+  );
 }
+
+export default App;
