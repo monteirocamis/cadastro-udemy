@@ -3,8 +3,8 @@ import React from 'react'
 export const  Nav  = () =>{
     return(
 
-        <nav >
-          cabeçalho 
+        <nav  className='menu-area'>
+          navegaçao 
         </nav>
         )
 }
