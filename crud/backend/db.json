@@ -1,15 +1,14 @@
 {
-    "users": [
-        {
-            "id" : 1,
-            "name": "artur oliveria",
-            "email": "email@email.com"
-        },
-        {
-            "id" : 2,
-            "name": "camis monteiro",
-            "email": "outromail@email.com"
-        }
-
-    ]
+  "users": [
+    {
+      "id": 2,
+      "name": "camis monteiro",
+      "email": "outromail@email.com"
+    },
+    {
+      "name": "camis",
+      "email": "email@email.com",
+      "id": 3
+    }
+  ]
 }
